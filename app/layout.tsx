@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import { Inter as FontSans } from 'next/font/google';
 import localFont from 'next/font/local';
-import './globals.css';
 import { ThemeProvider } from 'next-themes';
-import { cn } from '@/utils/cn';
-import { Provider as TooltipProvider } from '@/components/ui/tooltip';
+import { cn } from 'utils/cn';
+import { Provider as TooltipProvider } from '@/components/ui/tooltip-provider';
 import { NotificationProvider } from '@/components/ui/notification-provider';
 import Header from '@/components/header';
+
 
 const inter = FontSans({
   subsets: ['latin'],
