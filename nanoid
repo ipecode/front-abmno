@@ -1,0 +1,17 @@
+#!/bin/sh
+basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
+
+case `uname` in
+    *CYGWIN*) basedir=`cygpath -w "$basedir"`;;
+esac
+
+if [ -z "$NODE_PATH" ]; then
+  export NODE_PATH="/mnt/c/Users/Carol/ABNMO/front-abmno/node_modules/nanoid/bin/node_modules:/mnt/c/Users/Carol/ABNMO/front-abmno/node_modules/nanoid/node_modules:/mnt/c/Users/Carol/ABNMO/front-abmno/node_modules:/mnt/c/Users/Carol/ABNMO/node_modules:/mnt/c/Users/Carol/node_modules:/mnt/c/Users/node_modules:/mnt/c/node_modules:/mnt/c/Users/Carol/ABNMO/front-abmno/node_modules/.pnpm/node_modules"
+else
+  export NODE_PATH="/mnt/c/Users/Carol/ABNMO/front-abmno/node_modules/nanoid/bin/node_modules:/mnt/c/Users/Carol/ABNMO/front-abmno/node_modules/nanoid/node_modules:/mnt/c/Users/Carol/ABNMO/front-abmno/node_modules:/mnt/c/Users/Carol/ABNMO/node_modules:/mnt/c/Users/Carol/node_modules:/mnt/c/Users/node_modules:/mnt/c/node_modules:/mnt/c/Users/Carol/ABNMO/front-abmno/node_modules/.pnpm/node_modules:$NODE_PATH"
+fi
+if [ -x "$basedir/node" ]; then
+  exec "$basedir/node"  "$basedir/../nanoid/bin/nanoid.cjs" "$@"
+else
+  exec node  "$basedir/../nanoid/bin/nanoid.cjs" "$@"
+fi
