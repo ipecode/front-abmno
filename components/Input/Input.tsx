@@ -1,5 +1,5 @@
 'use client';
-import * as I from '@/components/ui/input';
+import * as I from '@components/ui/input';
 import {
   RiEyeLine,
   RiEyeOffLine

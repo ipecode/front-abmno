@@ -1,9 +1,9 @@
+'use client';
+
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
-const DynamicThemeSwitch = dynamic(() => import('./theme-switch'), {
-  ssr: false,
-});
+const DynamicThemeSwitch = dynamic(() => import('./theme-switch' as any),  { ssr: false });
 
 export default function Header() {
   return (
@@ -14,12 +14,12 @@ export default function Header() {
           className='flex items-center gap-2 text-label-md text-text-strong-950'
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          {/* <img
             src='/images/logo.svg'
             alt=''
             className='size-9 object-contain'
-          />
-          AlignUI
+          /> */}
+          <strong>ABNMO</strong>
         </Link>
 
         <DynamicThemeSwitch />

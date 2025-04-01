@@ -1,10 +1,10 @@
 // AlignUI SocialButton v0.0.0
 
 import * as React from 'react';
-import { tv, type VariantProps } from '@/utils/tv';
-import { recursiveCloneChildren } from '@/utils/recursive-clone-children';
+import { tv, type VariantProps } from '@utils/tv';
+import { recursiveCloneChildren } from '@utils/recursive-clone-children';
 import { Slot } from '@radix-ui/react-slot';
-import { PolymorphicComponentProps } from '@/utils/polymorphic';
+import { PolymorphicComponentProps } from '@utils/polymorphic';
 
 const SOCIAL_BUTTON_ROOT_NAME = 'SocialButtonRoot';
 const SOCIAL_BUTTON_ICON_NAME = 'SocialButtonIcon';

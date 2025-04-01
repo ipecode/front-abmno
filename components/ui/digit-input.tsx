@@ -1,7 +1,7 @@
 // AlignUI DigitInput v0.0.0
 
 import * as React from 'react';
-import { cn } from '@/utils/cn';
+import { cn } from '@utils/cn';
 
 import OtpInput, { OTPInputProps } from 'react-otp-input';
 

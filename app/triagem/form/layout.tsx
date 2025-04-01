@@ -1,4 +1,4 @@
-import Layout from "@/components/Triagem/Layout/Layout"
+import Layout from "@components/Triagem/Layout/Layout"
 
 export default function TriagemLayout({
   children,

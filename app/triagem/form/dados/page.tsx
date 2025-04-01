@@ -1,4 +1,4 @@
-// import { FormTriagem } from "@/components/Triagem/FormDados/FormTriagem";
+// import { FormTriagem } from "@components/Triagem/FormDados/FormTriagem";
 
 export default function Dados() {
   return (

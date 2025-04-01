@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-import * as VerticalStepper from '@/components/ui/vertical-stepper';
+import * as VerticalStepper from '@components/ui/vertical-stepper';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { steps } from './SidebarSteps';

@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import * as RadioGroupPrimitive from '@radix-ui/react-radio-group';
-import { cn } from '@/utils/cn';
+import { cn } from '@utils/cn';
 
 const RadioGroup = RadioGroupPrimitive.Root;
 RadioGroup.displayName = 'RadioGroup';

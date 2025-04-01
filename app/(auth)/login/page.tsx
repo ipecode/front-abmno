@@ -1,4 +1,4 @@
-import { Auth } from "@/features/Auth";
+import { Auth } from "@features/Auth";
 
 const LoginPage = () => {
   return <Auth.Login />;

@@ -1,5 +1,5 @@
 'use client';
-import * as Select from '@/components/ui/select';
+import * as Select from '@components/ui/select';
 import { DropdownProps } from './DropdownProps';
 
 export function Dropdown({ options, placeholder, onChange }: DropdownProps) {

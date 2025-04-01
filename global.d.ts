@@ -6,3 +6,5 @@ declare module 'react' {
     [key: `--${string}`]: string | number;
   }
 }
+declare module '*.jsx'
+declare module '*.mts'

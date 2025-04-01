@@ -1,13 +1,29 @@
 // AlignUI Button v0.0.0
 
 import * as React from 'react';
-import { tv, type VariantProps } from '@/utils/tv';
-import { recursiveCloneChildren } from '@/utils/recursive-clone-children';
-import type { PolymorphicComponentProps } from '@/utils/polymorphic';
+import { tv, type VariantProps } from '@utils/tv';
+import { recursiveCloneChildren } from '@utils/recursive-clone-children';
+import type { PolymorphicComponentProps } from '@utils/polymorphic';
 import { Slot } from '@radix-ui/react-slot';
+import { cn } from "@utils/cn";
+import { ButtonHTMLAttributes } from "react";
 
 const BUTTON_ROOT_NAME = 'ButtonRoot';
 const BUTTON_ICON_NAME = 'ButtonIcon';
+
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
+
+export function Button({ className, ...props }: ButtonProps) {
+  return (
+    <button
+      className={cn(
+        "flex items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-white transition-all hover:bg-blue-700 disabled:opacity-50",
+        className
+      )}
+      {...props}
+    />
+  );
+}
 
 export const buttonVariants = tv({
   slots: {

@@ -4,8 +4,8 @@
 
 import * as React from 'react';
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
-import { cn } from '@/utils/cn';
-import type { PolymorphicComponentProps } from '@/utils/polymorphic';
+import { cn } from '@utils/cn';
+import type { PolymorphicComponentProps } from '@utils/polymorphic';
 import { RiAddLine, RiSubtractLine } from '@remixicon/react';
 
 const ACCORDION_ITEM_NAME = 'AccordionItem';

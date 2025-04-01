@@ -1,5 +1,5 @@
 
-import { Auth } from "@/features/Auth";
+import { Auth } from "@features/Auth";
 
 export default function AuthLayout({
   children,

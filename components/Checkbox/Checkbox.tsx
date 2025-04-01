@@ -1,9 +1,9 @@
 'use client';
-import * as C from '@/components/ui/checkbox';
+import * as C from '@components/ui/checkbox';
 import { useState } from 'react';
 import { Label } from '../Label/Label';
 import { CheckboxProps } from './CheckboxProps';
-import { cn } from '@/utils/cn';
+import { cn } from '@utils/cn';
 
 export function Checkbox({
   options,

@@ -1,5 +1,5 @@
 'use client';
-import * as T from '@/components/ui/textarea';
+import * as T from '@components/ui/textarea';
 import { forwardRef, ForwardRefRenderFunction } from 'react';
 import { Controller } from 'react-hook-form';
 import { TexteareaProps } from './TexteareaProps';
