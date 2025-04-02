@@ -2,8 +2,8 @@
 
 import * as React from 'react';
 import * as TabsPrimitive from '@radix-ui/react-tabs';
-import { cn } from '@/utils/cn';
-import { PolymorphicComponentProps } from '@/utils/polymorphic';
+import { cn } from '@utils/cn';
+import { PolymorphicComponentProps } from '@utils/polymorphic';
 
 const TabMenuVerticalContent = TabsPrimitive.Content;
 TabMenuVerticalContent.displayName = 'TabMenuVerticalContent';
@@ -57,6 +57,7 @@ const TabMenuVerticalTrigger = React.forwardRef<
         'data-[state=active]:bg-bg-weak-50 data-[state=active]:text-text-strong-950',
         className,
       )}
+      aria-selected={true}
       {...rest}
     />
   );

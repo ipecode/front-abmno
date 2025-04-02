@@ -1,8 +1,8 @@
 // AlignUI ProgressCircle v0.0.0
 
 import * as React from 'react';
-import { cn } from '@/utils/cn';
-import { tv, type VariantProps } from '@/utils/tv';
+import { cn } from '@utils/cn';
+import { tv, type VariantProps } from '@utils/tv';
 
 export const progressCircleVariants = tv({
   slots: {

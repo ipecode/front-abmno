@@ -6,9 +6,9 @@ import * as React from 'react';
 import { Slottable } from '@radix-ui/react-slot';
 import * as TabsPrimitive from '@radix-ui/react-tabs';
 import mergeRefs from 'merge-refs';
-import { cn } from '@/utils/cn';
-import type { PolymorphicComponentProps } from '@/utils/polymorphic';
-import { useTabObserver } from '@/hooks/use-tab-observer';
+import { cn } from '@utils/cn';
+import type { PolymorphicComponentProps } from '@utils/polymorphic';
+import { useTabObserver } from '@hooks/use-tab-observer';
 
 const TabMenuHorizontalContent = TabsPrimitive.Content;
 TabMenuHorizontalContent.displayName = 'TabMenuHorizontalContent';

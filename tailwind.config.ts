@@ -1,6 +1,6 @@
-import type { Config } from 'tailwindcss';
-import defaultTheme from 'tailwindcss/defaultTheme';
+import { Config } from 'tailwindcss';
 import tailwindcssAnimate from 'tailwindcss-animate';
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 export const texts = {
   'title-h1': [
@@ -257,12 +257,13 @@ export const borderRadii = {
 } as unknown as Record<string, string>;
 
 const config = {
-  darkMode: ['class'],
-  safelist: ['.dark'],
+  plugins: [tailwindcssAnimate], 
+  darkMode: ['class', ''],
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './utils/**/*.{js,ts,jsx,tsx,mdx}',
+    './features/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     colors: {
@@ -597,6 +598,7 @@ const config = {
       borderRadius: {
         ...borderRadii,
       },
+
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
@@ -615,8 +617,9 @@ const config = {
         },
       },
     },
-  },
-  plugins: [tailwindcssAnimate],
+  }
 } satisfies Config;
 
 export default config;
+export type { Config };
+export type { Config as TailwindConfig };

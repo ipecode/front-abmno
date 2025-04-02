@@ -1,8 +1,8 @@
 // AlignUI Notification v0.0.0
 
 import * as React from 'react';
-import * as Alert from '@/components/ui/alert';
-import { cn } from '@/utils/cn';
+import * as Alert from '@components/ui/alert';
+import { cn } from '@utils/cn';
 import * as NotificationPrimitives from '@radix-ui/react-toast';
 import {
   RiAlertFill,

@@ -3,10 +3,10 @@ import { Inter as FontSans } from 'next/font/google';
 import localFont from 'next/font/local';
 import './globals.css';
 import { ThemeProvider } from 'next-themes';
-import { cn } from '@/utils/cn';
-import { Provider as TooltipProvider } from '@/components/ui/tooltip';
-import { NotificationProvider } from '@/components/ui/notification-provider';
-import Header from '@/components/header';
+import { cn } from '@utils/cn';
+import { Provider as TooltipProvider } from '@components/ui/tooltip';
+import { NotificationProvider } from '@components/ui/notification-provider';
+import Header from '@components/header';
 
 const inter = FontSans({
   subsets: ['latin'],

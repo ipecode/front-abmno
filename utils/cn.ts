@@ -1,7 +1,7 @@
 import clsx, { type ClassValue } from 'clsx';
 export { type ClassValue } from 'clsx';
 import { extendTailwindMerge } from 'tailwind-merge';
-import { shadows, texts, borderRadii } from '@/tailwind.config';
+import { shadows, texts, borderRadii } from '@root/tailwind.config';
 
 export const twMergeConfig = {
   extend: {

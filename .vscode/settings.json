@@ -4,7 +4,20 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "tailwindCSS.experimental.classRegex": [
-    ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    [
+      "([\"'`][^\"'`]*.*?[\"'`])",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
   ],
-  "tailwindCSS.classAttributes": ["class", "className", ".*ClassName"]
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    ".*ClassName"
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }

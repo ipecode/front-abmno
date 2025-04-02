@@ -23,7 +23,7 @@ import {
   parseColor,
 } from 'react-aria-components';
 
-import { cn } from '@/utils/cn';
+import { cn } from '@utils/cn';
 
 const ColorField = AriaColorField;
 const ColorPicker = AriaColorPicker;

@@ -1,10 +1,10 @@
 // AlignUI HorizontalStepper v0.0.0
 
 import * as React from 'react';
-import { tv, type VariantProps } from '@/utils/tv';
-import type { PolymorphicComponentProps } from '@/utils/polymorphic';
-import { recursiveCloneChildren } from '@/utils/recursive-clone-children';
-import { cn } from '@/utils/cn';
+import { tv, type VariantProps } from '@utils/tv';
+import type { PolymorphicComponentProps } from '@utils/polymorphic';
+import { recursiveCloneChildren } from '@utils/recursive-clone-children';
+import { cn } from '@utils/cn';
 import { RiArrowRightSLine } from '@remixicon/react';
 import { Slot } from '@radix-ui/react-slot';
 
