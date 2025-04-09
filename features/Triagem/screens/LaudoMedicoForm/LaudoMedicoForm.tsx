@@ -1,10 +1,10 @@
 'use client';
-import Button from "@/components/Button/Button";
-import { Checkbox } from "@/components/Checkbox/Checkbox";
-import { Dropdown } from "@/components/Dropdown/Dropdown";
-import { FormField } from "@/components/FormField/FormField";
-import { Textarea } from "@/components/Textearea/Textearea";
-import { usePageFormNavigation } from "@/hooks/use-page-form-navigation";
+import Button from "@components/Button/Button";
+import { Checkbox } from "@components/Checkbox/Checkbox";
+import { Dropdown } from "@components/Dropdown/Dropdown";
+import { FormField } from "@components/FormField/FormField";
+import { Textarea } from "@components/Textearea/Textearea";
+import { usePageFormNavigation } from "@hooks/use-page-form-navigation";
 import { RiInformationFill } from "@remixicon/react";
 import { useRouter } from "next/navigation";
 import { Controller, useForm } from "react-hook-form";

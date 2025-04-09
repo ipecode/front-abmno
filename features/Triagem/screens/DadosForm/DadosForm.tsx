@@ -1,8 +1,8 @@
 'use client';
-import Button from "@/components/Button/Button";
-import { Dropdown } from "@/components/Dropdown/Dropdown";
-import { FormField } from "@/components/FormField/FormField";
-import { usePageFormNavigation } from "@/hooks/use-page-form-navigation";
+import Button from "@components/Button/Button";
+import { Dropdown } from "@components/Dropdown/Dropdown";
+import { FormField } from "@components/FormField/FormField";
+import { usePageFormNavigation } from "@hooks/use-page-form-navigation";
 import { RiInformationFill } from '@remixicon/react';
 import { Controller, useForm } from "react-hook-form";
 import { cpfMask, phoneMask } from "../../../../utils/masks";

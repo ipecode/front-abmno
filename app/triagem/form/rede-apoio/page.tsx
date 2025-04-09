@@ -1,4 +1,4 @@
-import { RedeApoioForm } from "@/features/Triagem/screens/RedeApoioForm/RedeApoioForm";
+import { RedeApoioForm } from "@features/Triagem/screens/RedeApoioForm/RedeApoioForm";
 
 export default function RedeApoio() {
   return (

@@ -1,4 +1,4 @@
-import { LaudoMedicoForm } from "@/features/Triagem/screens/LaudoMedicoForm/LaudoMedicoForm";
+import { LaudoMedicoForm } from "@features/Triagem/screens/LaudoMedicoForm/LaudoMedicoForm";
 
 export default function LaudoMedico() {
   return (

@@ -1,10 +1,10 @@
 'use client';
-import Button from "@/components/Button/Button";
-import { FormField } from "@/components/FormField/FormField";
-import { Label } from "@/components/Label/Label";
-import { ContactsCard } from "@/components/Triagem/ContactsCard/ContactsCard";
-import { Icon } from "@/components/ui/button";
-import { useContacts } from "@/hooks/use-contacts";
+import Button from "@components/Button/Button";
+import { FormField } from "@components/FormField/FormField";
+import { Label } from "@components/Label/Label";
+import { ContactsCard } from "@components/Triagem/ContactsCard/ContactsCard";
+import { Icon } from "@components/ui/button";
+import { useContacts } from "@hooks/use-contacts";
 import { RiAddLine, RiInformationFill } from '@remixicon/react';
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";

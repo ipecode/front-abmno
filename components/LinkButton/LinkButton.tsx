@@ -1,4 +1,4 @@
-import * as L from '@/components/ui/link-button';
+import * as L from '@components/ui/link-button';
 import { LinkButtonProps } from './LinkButtonProps';
 
 export function LinkButton({ variant = 'error', className, text, onClick }: LinkButtonProps) {

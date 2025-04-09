@@ -1,5 +1,5 @@
-import { LinkButton } from "@/components/LinkButton/LinkButton";
-import { Icon } from "@/components/ui/input";
+import { LinkButton } from "@components/LinkButton/LinkButton";
+import { Icon } from "@components/ui/input";
 import { RiUser6Line } from "@remixicon/react";
 import { ContactsCardProps } from "./ContactsCardProps";
 
