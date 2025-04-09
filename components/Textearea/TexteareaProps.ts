@@ -3,7 +3,7 @@ import { Control, RegisterOptions } from "react-hook-form";
 
 export interface TexteareaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {
   name: string,
-  placeholder: string,
+  placeholder?: string,
   rules?: RegisterOptions,
   hasError?: boolean,
   control: Control<any>

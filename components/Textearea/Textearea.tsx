@@ -1,10 +1,9 @@
 'use client';
 import * as T from '@/components/ui/textarea';
-import { forwardRef, ForwardRefRenderFunction } from 'react';
 import { Controller } from 'react-hook-form';
 import { TexteareaProps } from './TexteareaProps';
 
-const TextareaBase: ForwardRefRenderFunction<HTMLTextAreaElement, TexteareaProps> = ({ placeholder, name, rules, control, ...rest }) => {
+export function Textarea({ placeholder, name, rules, control, ...rest }: TexteareaProps) {
   return (
     <Controller
       name={name}
@@ -20,5 +19,3 @@ const TextareaBase: ForwardRefRenderFunction<HTMLTextAreaElement, TexteareaProps
     />
   );
 }
-
-export const Textarea = forwardRef(TextareaBase);
