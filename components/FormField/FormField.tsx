@@ -7,13 +7,14 @@ import { FormFieldProps } from './FormFieldProps';
 const Form: ForwardRefRenderFunction<HTMLInputElement, FormFieldProps> = (
   {
     label,
-    type,
-    placeholder,
+    type = 'text',
+    placeholder = '',
     icon,
     message,
     hasError,
     campoObrigatorio,
     asteriskColor,
+    children,
     ...rest
   },
   ref,
@@ -22,12 +23,12 @@ const Form: ForwardRefRenderFunction<HTMLInputElement, FormFieldProps> = (
     <div className='inline'>
       <Label
         label={label}
-        campoObrigatorio
+        campoObrigatorio={campoObrigatorio}
         asteriskColor={asteriskColor}
         {...rest}
       />
 
-      <Input type={type} placeholder={placeholder} ref={ref} {...rest} />
+      {children ? children : <Input type={type} placeholder={placeholder} ref={ref} {...rest} />}
 
       {hasError && (
         <Hint icon={icon} message={message} hasError={hasError} {...rest} />
