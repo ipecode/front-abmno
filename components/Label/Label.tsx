@@ -11,7 +11,7 @@ export function Label({
   return (
     <L.Root className='pb-1' {...rest}>
       {label}
-      {campoObrigatorio && <L.Asterisk className={`text-[${asteriskColor}]`} />}
+      {campoObrigatorio && <L.Asterisk style={{ color: asteriskColor }} />}
       <L.Sub className='pl-1 text-neutral-400'>{observacao}</L.Sub>
     </L.Root>
   );
