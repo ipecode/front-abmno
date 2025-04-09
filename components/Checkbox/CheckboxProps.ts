@@ -3,4 +3,5 @@ export interface CheckboxProps {
   name: string;
   onChange?: (value: string) => void;
   className?: string;
+  value?: string
 }

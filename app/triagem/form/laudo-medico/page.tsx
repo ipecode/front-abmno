@@ -1,7 +1,9 @@
+import { LaudoMedicoForm } from "@features/Triagem/screens/LaudoMedicoForm/LaudoMedicoForm";
+
 export default function LaudoMedico() {
   return (
-    <div className='container mx-auto flex-1'>
-      <h1>Segunda parte do formulario</h1>
-    </div>
+    <main className='container mx-auto flex-1'>
+      <LaudoMedicoForm />
+    </main>
   );
 }
