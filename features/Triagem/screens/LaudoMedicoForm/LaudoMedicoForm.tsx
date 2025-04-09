@@ -112,10 +112,10 @@ export const LaudoMedicoForm = () => {
               {...field}
               placeholder="Anti-AQP4 positivo"
               options={[
-                { label: "Anti-AQP4 positivo", value: "feminino" },
-                { label: "Anti-MOG positivo", value: "masculino" },
-                { label: "Negativo para ambos", value: "na" },
-                { label: "Não possuo diagnóstico", value: "outro" }
+                { label: "Anti-AQP4 positivo", value: "Anti-AQP4 positivo" },
+                { label: "Anti-MOG positivo", value: "Anti-MOG positivo" },
+                { label: "Negativo para ambos", value: "Negativo para ambos" },
+                { label: "Não possuo diagnóstico", value: "Nao possuo diagnóstico" }
               ]} />
           )} />
 
