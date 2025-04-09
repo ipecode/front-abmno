@@ -6,8 +6,8 @@ import * as React from 'react';
 import * as DialogPrimitive from '@radix-ui/react-dialog';
 import { RiCloseLine } from '@remixicon/react';
 
-import * as CompactButton from '@/components/ui/compact-button';
-import { cn } from '@/utils/cn';
+import * as CompactButton from '@components/ui/compact-button';
+import { cn } from '@utils/cn';
 
 const DrawerRoot = DialogPrimitive.Root;
 DrawerRoot.displayName = 'Drawer';

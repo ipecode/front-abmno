@@ -4,10 +4,10 @@
 
 import * as React from 'react';
 import { Command } from 'cmdk';
-import { cn } from '@/utils/cn';
-import { tv, type VariantProps } from '@/utils/tv';
-import { PolymorphicComponentProps } from '@/utils/polymorphic';
-import * as Modal from '@/components/ui/modal';
+import { cn } from '@utils/cn';
+import { tv, type VariantProps } from '@utils/tv';
+import { PolymorphicComponentProps } from '@utils/polymorphic';
+import * as Modal from '@components/ui/modal';
 import { type DialogProps } from '@radix-ui/react-dialog';
 
 const CommandDialogTitle = Modal.Title;

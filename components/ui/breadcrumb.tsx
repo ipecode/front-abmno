@@ -2,8 +2,8 @@
 
 import * as React from 'react';
 import { Slot } from '@radix-ui/react-slot';
-import { cn } from '@/utils/cn';
-import { PolymorphicComponentProps } from '@/utils/polymorphic';
+import { cn } from '@utils/cn';
+import { PolymorphicComponentProps } from '@utils/polymorphic';
 
 const BREADCRUMB_ROOT_NAME = 'BreadcrumbRoot';
 const BREADCRUMB_ITEM_NAME = 'BreadcrumbItem';

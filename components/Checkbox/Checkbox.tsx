@@ -1,6 +1,6 @@
 'use client';
-import * as C from '@/components/ui/checkbox';
-import { cn } from '@/utils/cn';
+import * as C from '@components/ui/checkbox';
+import { cn } from '@utils/cn';
 import { Label } from '../Label/Label';
 import { CheckboxProps } from './CheckboxProps';
 

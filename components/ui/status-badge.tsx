@@ -1,9 +1,9 @@
 // AlignUI StatusBadge v0.0.0
 
 import * as React from 'react';
-import { tv, type VariantProps } from '@/utils/tv';
-import type { PolymorphicComponentProps } from '@/utils/polymorphic';
-import { recursiveCloneChildren } from '@/utils/recursive-clone-children';
+import { tv, type VariantProps } from '@utils/tv';
+import type { PolymorphicComponentProps } from '@utils/polymorphic';
+import { recursiveCloneChildren } from '@utils/recursive-clone-children';
 import { Slot } from '@radix-ui/react-slot';
 
 const STATUS_BADGE_ROOT_NAME = 'StatusBadgeRoot';

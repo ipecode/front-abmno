@@ -1,4 +1,4 @@
-import UserFill from '@/components/icons/UserFill';
+import UserFill from '@components/icons/UserFill';
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (

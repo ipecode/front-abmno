@@ -1,4 +1,4 @@
-import { DadosForm } from "@/features/Triagem/screens/DadosForm/DadosForm";
+import { DadosForm } from "@features/Triagem/screens/DadosForm/DadosForm";
 
 export default function Dados() {
   return (

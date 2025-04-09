@@ -1,4 +1,4 @@
-import * as L from '@/components/ui/label';
+import * as L from '@components/ui/label';
 import { LabelProps } from './LabelProps';
 
 export function Label({

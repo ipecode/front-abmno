@@ -1,6 +1,6 @@
-import Button from '@/components/Button/Button';
-import { Checkbox } from '@/components/Checkbox/Checkbox';
-import { FormField } from '@/components/FormField/FormField';
+import Button from '@components/Button/Button';
+import { Checkbox } from '@components/Checkbox/Checkbox';
+import { FormField } from '@components/FormField/FormField';
 
 const RegisterForm = () => {
   const asteriskColor = '#DF1C41';

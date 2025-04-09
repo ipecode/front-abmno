@@ -1,8 +1,8 @@
 // AlignUI FileUpload v0.0.0
 
 import * as React from 'react';
-import { cn } from '@/utils/cn';
-import { PolymorphicComponentProps } from '@/utils/polymorphic';
+import { cn } from '@utils/cn';
+import { PolymorphicComponentProps } from '@utils/polymorphic';
 import { Slot } from '@radix-ui/react-slot';
 
 const FileUpload = React.forwardRef<

@@ -1,9 +1,9 @@
 // AlignUI ButtonGroup v0.0.0
 
 import * as React from 'react';
-import { tv, type VariantProps } from '@/utils/tv';
-import { recursiveCloneChildren } from '@/utils/recursive-clone-children';
-import { PolymorphicComponentProps } from '@/utils/polymorphic';
+import { tv, type VariantProps } from '@utils/tv';
+import { recursiveCloneChildren } from '@utils/recursive-clone-children';
+import { PolymorphicComponentProps } from '@utils/polymorphic';
 import { Slot } from '@radix-ui/react-slot';
 
 const BUTTON_GROUP_ROOT_NAME = 'ButtonGroupRoot';
